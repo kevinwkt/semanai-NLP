@@ -1,0 +1,10 @@
+Neutro:█ █ █ █ █ █ █ 
+Broma:█ █ █ █ █ █ █ █ █ █ █ █ █ █ 
+Felicidad:█ █ █ █ █ █ █ █ 
+Enojo:█ █ █ █ █ █ █ █ █ 
+Tristeza:█ █ █ █ █ 
+Molestia:█ █ █ █ █ █ █ █ █ 
+Sorpresa:█ █ █ █ █ █ 
+Afecto:█ █ █ 
+Alivio:█ 
+Enfermo:█ 
