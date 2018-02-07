@@ -13,8 +13,7 @@ from pprint import pprint
 
 print("charts.py imported")
 
-# accessKey = '18a3308199b1444598f9cad6929cb058'
-accessKey = 'a0c9d2e00b634d9d81b5840208d565dd'
+accessKey = None
 
 uri = 'eastus2.api.cognitive.microsoft.com'
 path = '/text/analytics/v2.0/sentiment'
@@ -29,10 +28,10 @@ def GetSentiment (documents):
     response = conn.getresponse ()
     return response.read ()
 
-consumer_key = '7uOb6nd14A5yL6q8Bv9CALrI9'
-consumer_secret = 'nP3xLlxmQ1hUBcaDLYMrEt7p8Zv91e4240afxGojqNoKQGnP65'
-access_token = '3144537862-Sl9coCTeUcDSpiXnbhn3IbrncTIVR1BFIu3VPzq'
-access_secret = 'y8hGsP9sAtCsVLZO0nBIjT9uRSusLJqXOFvQGeUYJmnkB'
+consumer_key = None
+consumer_secret = None
+access_token = None
+access_secret = None
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
